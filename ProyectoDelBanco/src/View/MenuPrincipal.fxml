@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="654.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MenuPrincipalController">
+   <top>
+      <AnchorPane prefHeight="66.0" prefWidth="654.0" style="-fx-background-color: #C60000;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="227.0" layoutY="11.0" prefHeight="45.0" prefWidth="200.0" text="Banco Brutal" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="66.0" prefWidth="654.0" style="-fx-background-color: #C60000;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="209.0" layoutY="20.0" prefHeight="26.0" prefWidth="237.0" text="Cifrado de extremo a extremo" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnLoginCliente" layoutX="217.0" layoutY="117.0" mnemonicParsing="false" onAction="#btnLoginClienteEvent" prefHeight="25.0" prefWidth="241.0" style="-fx-background-radius: 100px;" text="Entrar Como Cliente">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="btnHacerRegistro" layoutX="216.0" layoutY="67.0" mnemonicParsing="false" onAction="#btnHacerRegistroEvent" prefHeight="25.0" prefWidth="241.0" style="-fx-background-radius: 100px;" text="Hacer Registro">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Label layoutX="232.0" layoutY="14.0" text="¿Como desea entrar?">
+               <font>
+                  <Font name="System Italic" size="23.0" />
+               </font>
+            </Label>
+            <Separator layoutX="1.0" layoutY="159.0" prefHeight="6.0" prefWidth="654.0" />
+            <Button fx:id="btnLoginEmpleado" layoutX="216.0" layoutY="181.0" mnemonicParsing="false" onAction="#btnLoginEmpleadoEvent" prefHeight="25.0" prefWidth="241.0" style="-fx-background-radius: 100px;" text="Entrar Como Empleado">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="btnLogearAdmin" layoutX="216.0" layoutY="224.0" mnemonicParsing="false" onAction="#btnLogearAdminEvent" prefHeight="25.0" prefWidth="241.0" style="-fx-background-radius: 100px;" text="Entrar Como Administrador">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
