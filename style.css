@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+}
+
+header{
+    color: aliceblue;
+    font-size: 40px;
+    background-color: brown;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+#caja-izquierda{
+    
+    width: 500px;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#caja-derecha{
+
+    border: solid 1px black;
+    margin-left: 300px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+
